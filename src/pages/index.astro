@@ -1,0 +1,478 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { features } from '../config/features';
+---
+
+<Layout>
+	<main class="site-shell">
+		<section class="hero" aria-label="Baker James Farm Homestead Concept">
+			<nav class="nav" aria-label="Main navigation">
+				<a class="brand" href="/">Baker James Farm</a>
+				<div class="nav-links">
+					<a href="#vision">Vision</a>
+					<a href="#homesteads">Homesteads</a>
+					<a href="#land">Land</a>
+					<a href="#visit">Experience</a>
+					<a href="/location-research/">Location</a>
+					{features.draftPages && <a href="/investor-packet/">Investor Packet</a>}
+				</div>
+			</nav>
+
+			<div class="hero-content">
+				<p class="eyebrow">Noblesville, Indiana | Ultra-premium homestead concept</p>
+				<h1>Private estate homes rooted in gardens, prairie, and farm-venue culture.</h1>
+				<p class="intro">
+					Baker James Farm is a proposed hybrid agritourism development in Noblesville:
+					five private multi-acre homesteads shaped by architectural discipline, cultivated
+					gardens, native prairie restoration, walking paths, and a farm-venue experience.
+				</p>
+				<div class="actions">
+					<a class="button primary" href="#homesteads">Explore the plan</a>
+					<a class="button secondary" href="/location-research/">Why this location</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="section intro-section" id="vision">
+			<div>
+				<p class="label">Development vision</p>
+				<h2>Rural luxury with a cultivated farm rhythm.</h2>
+			</div>
+			<div class="narrative">
+				<p>
+					The concept preserves the feeling of a working Hamilton County landscape while
+					adding a carefully scaled ultra-premium residential layer. Homes are intentionally
+					few, land is intentionally generous, and the shared open space becomes the primary
+					amenity.
+				</p>
+				<p>
+					The design language leans estate-like rather than suburban: warm wood,
+					hand-laid stone, simple rooflines, garden courts, greenhouse moments, gravel
+					walks, orchard edges, and views across restored prairie.
+				</p>
+			</div>
+		</section>
+
+		<section class="section" id="homesteads">
+			<div>
+				<p class="label">Five homesteads</p>
+				<h2>Private acreage, shared identity.</h2>
+			</div>
+			<div class="homestead-grid">
+				<article>
+					<span>01</span>
+					<h3>Multi-acre homesites</h3>
+					<p>Each homesite has room for gardens, small barns, outdoor kitchens, and quiet views.</p>
+				</article>
+				<article>
+					<span>02</span>
+					<h3>European material palette</h3>
+					<p>Timber beams, natural stone, limewashed textures, metal roofs, and restrained detailing.</p>
+				</article>
+				<article>
+					<span>03</span>
+					<h3>Estate-scale site planning</h3>
+					<p>Homes are placed with privacy, long views, and generous open land between them.</p>
+				</article>
+			</div>
+		</section>
+
+		<section class="image-band" aria-label="European stone and timber farm buildings">
+			<div class="image-copy">
+				<p class="label">Architectural character</p>
+				<h2>Framed by stone, timber, orchard rows, and working garden rooms.</h2>
+			</div>
+		</section>
+
+		<section class="market" id="land">
+			<div>
+				<p class="label">Land strategy</p>
+				<h2>Homes, venue land, restoration, and trails each have a clear role.</h2>
+			</div>
+			<div class="land-list">
+				<p>The farm and venue lot is kept distinct from the residential homesites so guest activity has its own center of gravity.</p>
+				<p>Multi-acre home lots are arranged for privacy, long views, gardens, and a quiet residential edge.</p>
+				<p>Restoration areas focus on invasive cleanup, native habitat, pollinator support, and a continuous wildlife movement corridor.</p>
+				<p>A soft-surface walking path network connects homesteads, overlooks, farm edges, and restoration areas without feeling overbuilt.</p>
+			</div>
+		</section>
+
+		<section class="section plan-section" aria-label="Conceptual site plan">
+			<div>
+				<p class="label">Conceptual site plan</p>
+				<h2>A landscape-first plan with distinct public, private, and ecological zones.</h2>
+			</div>
+			<div class="plan-grid">
+				<article class="plan-card venue-card">
+					<span>Farm / venue lot</span>
+					<h3>Public-facing farm culture</h3>
+					<p>Seasonal gatherings, workshops, farm stand moments, and garden programming stay concentrated on the dedicated venue land.</p>
+				</article>
+				<article class="plan-card homes-card">
+					<span>Home lots</span>
+					<h3>Private multi-acre living</h3>
+					<p>Homesites remain quiet and residential, with room for private gardens, outbuildings, outdoor kitchens, and generous buffers.</p>
+				</article>
+				<article class="plan-card restoration-card">
+					<span>Restoration area</span>
+					<h3>Native wildlife corridor</h3>
+					<p>Green space becomes active habitat: remove invasives, restore native plantings, and create a protected passage for wildlife.</p>
+				</article>
+				<article class="plan-card paths-card">
+					<span>Walking paths</span>
+					<h3>Soft circulation</h3>
+					<p>Walking paths stitch the land together for residents and guided experiences while keeping vehicles and visitors controlled.</p>
+				</article>
+			</div>
+		</section>
+
+		<section class="section location-summary" id="location">
+			<div>
+				<p class="label">Why Noblesville</p>
+				<h2>Open-space living just outside downtown Noblesville.</h2>
+			</div>
+			<div class="narrative">
+				<p>
+					The concept belongs in Noblesville's civic-recreation fabric: close to parks,
+					trails, golf, youth sports, downtown small businesses, and the city's growing
+					open-space network.
+				</p>
+				<p>
+					That context makes the project feel less like a subdivision and more like a
+					landscape-led extension of Noblesville's parks, trails, gardens, and downtown
+					visitor economy.
+				</p>
+				<a class="market-link" href="/location-research/">Read the location research</a>
+			</div>
+		</section>
+
+		<section class="section visit" id="visit">
+			<div>
+				<p class="label">Agritourism layer</p>
+				<h2>An adjacent farm venue for seasonal visits, workshops, and slow weekends.</h2>
+			</div>
+			<div class="experience-grid">
+				<p>Small farm stand days, native plant walks, harvest dinners, flower cutting mornings, and craft workshops can bring visitors to the adjacent farm-venue land without overwhelming the residential scale.</p>
+				<p>The public experience is focused near the entry and farm buildings, while the five homesteads remain quiet, private, and visually buffered by restoration areas, gardens, and orchard plantings.</p>
+			</div>
+		</section>
+
+	</main>
+</Layout>
+
+<style>
+	:global(html) {
+		scroll-behavior: smooth;
+		background: #f7f3eb;
+		color: #1e241d;
+		font-family:
+			Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	}
+
+	:global(body) {
+		min-height: 100%;
+	}
+
+	.site-shell {
+		min-height: 100vh;
+		background: #f7f3eb;
+	}
+
+	.hero {
+		position: relative;
+		min-height: 88vh;
+		display: grid;
+		align-content: space-between;
+		padding: 24px clamp(18px, 4vw, 56px) 72px;
+		overflow: hidden;
+		background:
+			linear-gradient(90deg, rgba(15, 17, 12, 0.92), rgba(15, 17, 12, 0.58)),
+			url("/images/baker-james-farm-luxury-homestead.png") center / cover;
+		color: #fffdf6;
+	}
+
+	.hero::after {
+		content: "";
+		position: absolute;
+		inset: auto 0 0;
+		height: 30%;
+		background: linear-gradient(0deg, rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0));
+		pointer-events: none;
+	}
+
+	.nav,
+	.hero-content {
+		position: relative;
+		z-index: 1;
+	}
+
+	.nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 24px;
+		padding: 14px 16px;
+		border: 1px solid rgba(255, 253, 246, 0.24);
+		border-radius: 8px;
+		background: rgba(15, 17, 12, 0.72);
+	}
+
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	.brand {
+		font-size: clamp(1.25rem, 2vw, 1.75rem);
+		font-weight: 800;
+	}
+
+	.nav-links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: clamp(14px, 3vw, 32px);
+		font-weight: 700;
+	}
+
+	.hero-content {
+		max-width: 900px;
+		padding-top: 22vh;
+	}
+
+	.eyebrow,
+	.label {
+		margin: 0 0 14px;
+		font-size: 0.78rem;
+		font-weight: 800;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+	}
+
+	h1,
+	h2,
+	h3,
+	p {
+		margin-top: 0;
+	}
+
+	h1 {
+		max-width: 880px;
+		margin-bottom: 18px;
+		font-size: clamp(2.9rem, 6.3vw, 6.6rem);
+		line-height: 0.94;
+	}
+
+	h2 {
+		margin-bottom: 0;
+		font-size: clamp(2rem, 4vw, 4rem);
+		line-height: 1;
+	}
+
+	h3 {
+		margin-bottom: 12px;
+		font-size: 1.35rem;
+	}
+
+	.intro {
+		max-width: 640px;
+		font-size: clamp(1.05rem, 2vw, 1.35rem);
+		line-height: 1.55;
+		color: #f4ead7;
+	}
+
+	.actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 12px;
+		margin-top: 30px;
+	}
+
+	.button,
+	.market-link {
+		display: inline-flex;
+		align-items: center;
+		min-height: 46px;
+		padding: 0 18px;
+		border-radius: 8px;
+		font-weight: 800;
+	}
+
+	.primary {
+		background: #f7c948;
+		color: #202316;
+	}
+
+	.secondary {
+		border: 1px solid rgba(255, 255, 255, 0.72);
+		color: #fffdf6;
+	}
+
+	.market-link {
+		width: fit-content;
+		border: 1px solid #a65f34;
+		color: #7c3f22;
+	}
+
+	.section,
+	.market {
+		display: grid;
+		grid-template-columns: minmax(0, 0.95fr) minmax(280px, 1.05fr);
+		gap: clamp(28px, 5vw, 72px);
+		padding: clamp(56px, 9vw, 112px) clamp(18px, 4vw, 56px);
+	}
+
+	.section {
+		background: #f7f3eb;
+	}
+
+	.label {
+		color: #7c3f22;
+	}
+
+	.narrative {
+		display: grid;
+		gap: 18px;
+		color: #53594e;
+		font-size: 1.1rem;
+		line-height: 1.75;
+	}
+
+	.homestead-grid {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 16px;
+	}
+
+	.plan-grid {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 16px;
+	}
+
+	article {
+		min-height: 230px;
+		padding: 22px;
+		border: 1px solid #ded4c3;
+		border-radius: 8px;
+		background: #fffaf0;
+	}
+
+	article span {
+		display: block;
+		margin-bottom: 42px;
+		color: #a65f34;
+		font-weight: 900;
+	}
+
+	article p,
+	.plan-card p,
+	.visit p,
+	.land-list p {
+		color: #5e6357;
+		line-height: 1.65;
+	}
+
+	.plan-card {
+		min-height: 240px;
+		border-top-width: 6px;
+	}
+
+	.plan-card span {
+		margin-bottom: 36px;
+	}
+
+	.venue-card {
+		border-top-color: #9a4bb4;
+	}
+
+	.homes-card {
+		border-top-color: #3b9df2;
+	}
+
+	.restoration-card {
+		border-top-color: #35a65a;
+	}
+
+	.paths-card {
+		border-top-color: #f4b83f;
+	}
+
+	.image-band {
+		min-height: 58vh;
+		display: grid;
+		align-items: end;
+		padding: clamp(56px, 9vw, 112px) clamp(18px, 4vw, 56px);
+		background:
+			linear-gradient(0deg, rgba(12, 15, 10, 0.88), rgba(12, 15, 10, 0.52)),
+			url("/images/baker-james-farm-venue-gardens.png") center / cover;
+		color: #fffdf6;
+	}
+
+	.image-copy {
+		max-width: 800px;
+	}
+
+	.image-copy .label {
+		color: #f7c948;
+	}
+
+	.market {
+		align-items: end;
+		background: #24311f;
+		color: #fffdf6;
+	}
+
+	.market .label {
+		color: #f7c948;
+	}
+
+	.market .land-list p {
+		color: #f7f0df;
+	}
+
+	.land-list {
+		display: grid;
+		gap: 18px;
+	}
+
+	.visit {
+		align-items: start;
+	}
+
+	.experience-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 18px;
+	}
+
+	.visit p {
+		font-size: 1.1rem;
+	}
+
+	@media (max-width: 820px) {
+		.nav {
+			align-items: flex-start;
+			flex-direction: column;
+		}
+
+		.hero {
+			min-height: 92vh;
+			padding-bottom: 52px;
+		}
+
+		.hero-content {
+			padding-top: 18vh;
+		}
+
+		.section,
+		.market {
+			grid-template-columns: 1fr;
+		}
+
+		.homestead-grid,
+		.plan-grid,
+		.experience-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>
