@@ -54,7 +54,10 @@ const sources = [
 	<main class="research-shell">
 		<section class="hero" aria-label="Location research for Baker James Farm">
 			<nav class="nav" aria-label="Main navigation">
-				<a class="brand" href="/">Baker James Farm</a>
+				<a class="brand" href="/">
+					<img src="/logo-mark.svg" alt="" width="40" height="40" />
+					<span>Baker James Farm</span>
+				</a>
 				<div class="nav-links">
 					<a href="/">Home</a>
 					<a href="#rationale">Rationale</a>
@@ -242,8 +245,17 @@ const sources = [
 	}
 
 	.brand {
-		font-size: clamp(1.25rem, 2vw, 1.75rem);
+		display: inline-flex;
+		align-items: center;
+		gap: 10px;
+		font-size: clamp(1.15rem, 2vw, 1.55rem);
 		font-weight: 800;
+	}
+
+	.brand img {
+		width: 40px;
+		height: 40px;
+		border-radius: 8px;
 	}
 
 	.nav-links {
@@ -388,7 +400,7 @@ const sources = [
 		padding: clamp(64px, 10vw, 124px) clamp(18px, 4vw, 56px);
 		background:
 			linear-gradient(0deg, rgba(12, 15, 10, 0.9), rgba(12, 15, 10, 0.5)),
-			url("/images/baker-james-farm-reference.jpg") center / cover;
+			url("/images/baker-james-farm-venue-gardens.png") center / cover;
 		color: #fffdf6;
 	}
 

@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+	<title id="title">Baker James Farm mark</title>
+	<desc id="desc">A stylized barn roof, field rows, and rising sun for Baker James Farm.</desc>
 	<rect width="96" height="96" rx="20" fill="#f7f3eb"/>
 	<circle cx="48" cy="38" r="15" fill="#f7c948"/>
 	<path d="M18 52 48 25l30 27v21H18V52Z" fill="#24311f"/>

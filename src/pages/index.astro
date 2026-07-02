@@ -7,7 +7,10 @@ import { features } from '../config/features';
 	<main class="site-shell">
 		<section class="hero" aria-label="Baker James Farm Homestead Concept">
 			<nav class="nav" aria-label="Main navigation">
-				<a class="brand" href="/">Baker James Farm</a>
+				<a class="brand" href="/">
+					<img src="/logo-mark.svg" alt="" width="40" height="40" />
+					<span>Baker James Farm</span>
+				</a>
 				<div class="nav-links">
 					<a href="#vision">Vision</a>
 					<a href="#homesteads">Homesteads</a>
@@ -223,8 +226,17 @@ import { features } from '../config/features';
 	}
 
 	.brand {
-		font-size: clamp(1.25rem, 2vw, 1.75rem);
+		display: inline-flex;
+		align-items: center;
+		gap: 10px;
+		font-size: clamp(1.15rem, 2vw, 1.55rem);
 		font-weight: 800;
+	}
+
+	.brand img {
+		width: 40px;
+		height: 40px;
+		border-radius: 8px;
 	}
 
 	.nav-links {
